@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Iggy Dev is a software development firm with vast experience that delivers quality services to its clients.">
+        <meta name="author" content="Ighomena Daniel Odebala - 220158602@aston.ac.uk">
+        <meta name="keywords" content="software development, birmingham, aston university">
+        <title>IGGY Dev | Contact Us</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- Bootstrap CSS / JS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Font Awesome JS -->
+        <script src="https://kit.fontawesome.com/c5cd4f3e40.js" crossorigin="anonymous"></script>
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- My JS -->
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar justify-content-center py-3">
+                <a href="/" class="align-items-center me-md-auto"><img src="images/logo.png" class="logo" alt="Iggy Dev Logo"></a>
+                <div class="navbar-links">
+                    <a href="/">HOME</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="contact.html" class="here">CONTACT US</a>
+                </div>
+            </nav>
+
+            <header class="main-header" id="contact-us">
+                <h1>Contact Us</h1>
+            </header>
+
+            <main>
+                <section class="contact">
+                    <h2>CONTACT US</h2>
+                    <h4>Get in touch with us</h4>
+
+                    <div class="contact-items">
+                            <div class="contact-item">
+                                <h5>Contact Customer Service</h5>
+                                <p>For any enquiries, please fill out the form below and we will get back to you as soon as possible.</p>
+                                <form id="contact-form">
+                                    <input class="contact-input" type="text" id="name" name="name" placeholder="* Name" required>
+                                    <input class="contact-input" type="email" id="email" name="email" placeholder="* Email" required>
+                                    <input class="contact-input" type="email" id="confirm-email" name="confirm-email" placeholder="* Confirm Email" required>
+                                    <input class="contact-input" type="tel" id="number" name="number" placeholder="* Phone Number" required>
+                                    
+                                    <label for="date">Project Start Date:</label>
+                                    <input class="contact-input" type="date" id="date" name="date" required>
+                                    
+                                    <textarea name="details" id="details" placeholder="Details about the project..."></textarea>
+
+                                    <label for="duration">Project Duration:</label>
+                                    <select id="duration" name="duration">
+                                        <option value="1-3 Months">1 - 3 Months</option>
+                                        <option value="3-6 Months">3 - 6 Months</option>
+                                        <option value="6+ Months">6+ Months</option>
+                                    </select><p></p>
+
+                                    <label for="project-type">Type of Project:</label>
+                                    <select id="project-type" name="project-type">
+                                        <option value="Web Application">Web Application</option>
+                                        <option value="Mobile App">Mobile App</option>
+                                        <option value="Software">Software</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+
+                                    <span class="contact-how">How should we contact you:</span>
+                                    <label for="check-email">Email:</label>
+                                    <input type="checkbox" id="check-email" name="email" value="Email" checked disabled>
+                                    <label for="check-call">Call:</label>
+                                    <input type="checkbox" id="check-call" name="check-call" value="Call">
+                                    <label for="check-text">Text:</label>
+                                    <input type="checkbox" id="check-text" name="check-text" value="Text">
+
+                                    <input id="submit" type="submit" value="Submit">
+                                </form>
+                            </div>
+
+                            <div class="contact-item">
+                                <h5>Message From a Founder</h5>
+                                <img src="images/founders/ighomena.png" alt="Ighomena Daniel Odebala">
+                                <p>Thank you for visiting our website. We hope to hear from you soon, I would be looking forward to working with you or your team, if you would like to make an enquiry or talk to me feel free to contact me with my details below.</p>
+                                <p><b>Name: Ighomena Daniel Odebala</b></p>
+                                <p><b>Email: <a href="mailto:220158602@aston.ac.uk">220158602@aston.ac.uk</a></b></p>
+                                <p><b>SUN: 220158602</b></p>
+
+                                <h6>Why work with us?</h6>
+                                <ul>
+                                    <li>Our team is made up of highly skilled and experienced developers.</li>
+                                    <li>We have a proven track record of delivering quality services to our clients.</li>
+                                    <li>Scalability, reliability and user-friendly are our watchwords.</li>
+                                </ul>
+                                <p>Thank you for your time.</p>
+                            </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer mt-auto py-3 bg-dark">
+            <div class="container">
+                <span>© 2023 Iggy Dev</span>
+                <div class="socials">
+                    <a href="https://www.github.com//dhee-tree" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ighomena-daniel-odebala-a22811203/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com/Tesla" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
